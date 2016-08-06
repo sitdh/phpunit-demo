@@ -32,4 +32,15 @@ class AdderTest extends TestCase
         $this->assertEquals(1, $adder->firstOperand);
         $this->assertEquals(1, $adder->secondOperand);
     }
+
+    public function testAdderShouldComputeOperands()
+    {
+    
+        $adder = new Adder;
+
+        $adder->firstOperand = 1;
+        $adder->secondOperand = 1;
+        $this->assertEquals(2, $this->results());
+
+    }
 }
