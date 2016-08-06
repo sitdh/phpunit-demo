@@ -25,7 +25,7 @@ class AdderTest extends TestCase
     {
         $adder = new Adder;
         $this->assertEquals(2, $adder->operate(1, 1, 4));
-        $this->assertEquals(0, $adder->operate(2, -2, 4));
+        $this->assertEquals(0, $adder->operate(2, -2, 4, 5));
     }
 
 }
