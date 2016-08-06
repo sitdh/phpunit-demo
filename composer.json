@@ -1,0 +1,15 @@
+{
+    "name": "sitdh/phpunit-demo",
+    "description": "Input Demo",
+    "type": "phpunit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sitdhibong Laokok",
+            "email": "sitdhibong@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.5"
+    }
+}
