@@ -11,8 +11,8 @@ class Adder
         $this->secondOperand = 0;
     }
 
-    public function results()
+    public function operate(int $firstOperand, int $secondOperand)
     {
-        return $this->firstOperand + $this->secondOperand;
+        return $firstOperand + $secondOperand;
     }
 }
