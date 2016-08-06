@@ -11,36 +11,21 @@ class AdderTest extends TestCase
         $this->assertNotEmpty($adder);
     }
 
-    public function testAdderSholdHaveTwoProperties()
-    {
-        $this->assertClassHasAttribute('firstOperand', Adder::class);
-        $this->assertClassHasAttribute('secondOperand', Adder::class);
-    }
-
-    public function testAdderShouldHoldAttributesValue()
+    /**
+     * @expectedException TypeError
+     **/
+    public function testStringShouldNotOperate()
     {
         $adder = new Adder;
-
-        // Initial values
-        $this->assertEquals(0, $adder->firstOperand);
-        $this->assertEquals(0, $adder->secondOperand);
-
-        // Assign
-        $adder->firstOperand = 1;
-        $adder->secondOperand = 1;
-
-        $this->assertEquals(1, $adder->firstOperand);
-        $this->assertEquals(1, $adder->secondOperand);
+        $adder->operate('s', 0);
+        $adder->operate(0, 's');
     }
 
-    public function testAdderShouldComputeOperands()
+    public function testAdderShouldOperateFirstTwoArguments()
     {
-    
         $adder = new Adder;
-
-        $adder->firstOperand = 1;
-        $adder->secondOperand = 1;
-        $this->assertEquals(2, $adder->results());
-
+        print_r($adder->operate(1, 2));
+        $this->assertEquals(2, $adder->operate(1, 2));
     }
+
 }
