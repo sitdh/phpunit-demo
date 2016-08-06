@@ -24,8 +24,7 @@ class AdderTest extends TestCase
     public function testAdderShouldOperateFirstTwoArguments()
     {
         $adder = new Adder;
-        print_r($adder->operate(1, 2));
-        $this->assertEquals(2, $adder->operate(1, 2));
+        $this->assertEquals(2, $adder->operate(1, 1));
     }
 
 }
