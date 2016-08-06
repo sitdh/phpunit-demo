@@ -40,7 +40,7 @@ class AdderTest extends TestCase
 
         $adder->firstOperand = 1;
         $adder->secondOperand = 1;
-        $this->assertEquals(2, $this->results());
+        $this->assertEquals(2, $adder->results());
 
     }
 }
