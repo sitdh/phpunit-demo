@@ -2,7 +2,13 @@
 
 class Adder
 {
-    public $firstOperand = 0;
-    public $secondOperand = 0;
+    public $firstOperand;
+    public $secondOperand;
+
+    public function __construct()
+    {
+        $this->firstOperand = 0;
+        $this->secondOperand = 0;
+    }
 
 }
