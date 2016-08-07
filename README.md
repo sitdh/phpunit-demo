@@ -17,5 +17,14 @@ $ ./phpunit.phar --version
 - หลังจากนั้นเรียกใช้คลาสทดสอบด้วยคำสั่งด้านล่าง ซึ่งจะนำกรณีทดสอบที่เขียนไว้ภายในคลาสทดสอบมาใช้งาน
 ```bash
 $ ./phpunit.phar AdderTest --verbose
+PHPUnit 5.5.0 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 7.1.0beta1
+
+...                                                     3 / 3 (100%)
+
+Time: 72 ms, Memory: 8.00MB
+
+OK (3 tests, 4 assertions)
 ```
 
