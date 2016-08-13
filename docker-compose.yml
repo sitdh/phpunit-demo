@@ -3,4 +3,4 @@ services:
     php:
         image: php:7.0-fpm
         volumes:
-            - ./src:/var/www/html
+            - ./src:/root
