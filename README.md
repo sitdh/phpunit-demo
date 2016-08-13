@@ -27,6 +27,7 @@ docker-compose up -d</pre>
 
 
 ---------------------
+<h1>การเรียกใช้งาน PHPUnitผ่าน Docker</h1>
 
 ให้พิมพ์
 <pre>docker ps</pre>
@@ -39,11 +40,8 @@ docker-compose up -d</pre>
 เช่น CONTAINER ID เป็น da8234fee7d0
 ก็จะเป็น
 <pre>docker exec -it da8 /bin/bash</pre>
---------------------- 
 
-<h1>การเรียกใช้งาน PHPUnit</h1>
-
-พิมพ์
+จากนั้นพิมพ์
 <pre>./phpunit.phar AdderTest --verbose</pre>
 
 ผลลัพธ์ที่ได้
