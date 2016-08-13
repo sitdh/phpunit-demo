@@ -2,7 +2,7 @@
 1. ขอขอบคุณ ผู้ใหญ่ใจดี พี่แชมป์สำหรับสอนการใช้ phpunit
 2. thank for this article http://tech.osteel.me/posts/2015/12/18/from-vagrant-to-docker-how-to-use-docker-for-local-web-development.html
 
-- หลังจากแตกไฟล์ที่ดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้ เปิด Command prompt สำหรับ Windows หรือ Terminal สำหรับ Linux หรือ OS X แล้วไปยังโฟลเดอร์ที่เก็บ docker-compose.yml
+
 
 ## ความต้องการ
 1. Docker for Mac หรือ Windows
@@ -15,6 +15,8 @@
 --------------------
 
 <h1>การติดตั้ง  environment บน Docker</h1>
+
+เปิด Command prompt สำหรับ Windows หรือ Terminal สำหรับ Linux หรือ OS X แล้วไปยังโฟลเดอร์ที่เก็บ docker-compose.yml
 
 พิมพ์  
 <pre>docker-compose up -d</pre>
