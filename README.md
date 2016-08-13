@@ -1,4 +1,4 @@
-# Docker-local-web-dev-phpunit
+# Docker-local-web-dev + phpunit
 1. ขอขอบคุณ ผู้ใหญ่ใจดี พี่แชมป์สำหรับสอนการใช้ phpunit
 2. thank for this article http://tech.osteel.me/posts/2015/12/18/from-vagrant-to-docker-how-to-use-docker-for-local-web-development.html
 
