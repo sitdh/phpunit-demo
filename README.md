@@ -32,7 +32,7 @@ docker-compose up -d</pre>
 จำ CONTAINER ID ของ IMAGE php (CONTAINER ตัวที่ 2)
 
 จากนั้นพิมพ์
-<pre>docker exec -it <CONTAINER ID สามตัวแรก> /bin/bash</pre>
+<pre>docker exec -it 'CONTAINER ID สามตัวแรก' /bin/bash</pre>
 
 เช่น CONTAINER ID เป็น da8234fee7d0
 ก็จะเป็น
