@@ -27,7 +27,7 @@ docker-compose up -d</pre>
 
 
 ---------------------
-<h1>การเรียกใช้งาน PHPUnitผ่าน Docker</h1>
+<h1>การเรียกใช้งาน PHPUnit ผ่าน Docker</h1>
 
 ให้พิมพ์
 <pre>docker ps</pre>
