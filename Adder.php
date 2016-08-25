@@ -11,8 +11,13 @@ class Adder
         $this->secondOperand = 0;
     }
 
-    public function operate(int $firstOperand, int $secondOperand)
+    public function operate($firstOperand, $secondOperand)
     {
-        return $firstOperand + $secondOperand;
+        if ( ! is_numeric($firstOperand) || ! is_numeric($secondOperand) )
+            throw new TypeError('Numeric only');
+
+        $result = $firstOperand + $secondOperand;
+
+        return $result;
     }
 }
