@@ -1,4 +1,5 @@
 # Adder สำหรับทดสอบ PHPUnit
+![phpunit-demo](https://travis-ci.org/sitdh/phpunit-demo.svg?branch=master)
 
 ## ความต้องการ
 1. PHP ในเครื่องคอมพิวเตอร์ ที่สามารถเรียกใช้งานได้ผ่าน command line  
