@@ -10,4 +10,4 @@ sudo: required
 
 before_install: chmod a+x ./phpunit.phar 
 
-script: sudo ./phpunit.phar AdderTest
+script: ./phpunit.phar AdderTest
