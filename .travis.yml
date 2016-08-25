@@ -8,6 +8,6 @@ php:
 
 sudo: required
 
-before_install: php5dismod xdebug
+before_install: sudo php5dismod xdebug
 
 script: sudo ./phpunit.phar AdderTest
