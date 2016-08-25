@@ -12,7 +12,7 @@ class AdderTest extends TestCase
     }
 
     /**
-     * @expectedException TypeError
+     * @expectedException ErrorException 
      **/
     public function testStringShouldNotOperate()
     {

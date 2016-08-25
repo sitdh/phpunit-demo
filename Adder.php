@@ -14,7 +14,7 @@ class Adder
     public function operate($firstOperand, $secondOperand)
     {
         if ( ! is_numeric($firstOperand) || ! is_numeric($secondOperand) )
-            throw new TypeError('Numeric only');
+            throw new ErrorException('Numeric only');
 
         $result = $firstOperand + $secondOperand;
 
