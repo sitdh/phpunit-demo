@@ -3,7 +3,7 @@
 class Grader
 {
     private $score = 0;
-    private $studentId = ''
+    private $studentId = '';
 
     public function __construct($studentId, $score)
     {
@@ -28,6 +28,6 @@ class Grader
             $gradeLatter = 'D';
         }
 
-        return $gradLetter;
+        return $gradeLetter;
     }
 }
