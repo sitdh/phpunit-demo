@@ -13,11 +13,11 @@
 - หลังจากแตกไฟล์ที่ดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้ เปิด Command prompt สำหรับ Windows หรือ Terminal สำหรับ Linux หรือ OS X  
 - ทดสอบการเรียกใช้งาน PHPUnit ด้วยคำสั่ง
 ```bash
-$ ./phpunit.phar --version
+$ php phpunit.phar --version
 ```
 - หลังจากนั้นเรียกใช้คลาสทดสอบด้วยคำสั่งด้านล่าง ซึ่งจะนำกรณีทดสอบที่เขียนไว้ภายในคลาสทดสอบมาใช้งาน
 ```bash
-$ ./phpunit.phar AdderTest --verbose
+$ php phpunit.phar AdderTest --verbose
 PHPUnit 5.5.0 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 7.1.0beta1
