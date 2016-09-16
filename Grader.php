@@ -16,7 +16,7 @@ class Grader
 
     public function grading()
     {
-        $gradeLetter = 'F';
+        $gradeLetter = '';
 
         if ($score > 80) {
             $gradeLatter = 'A';
